@@ -1,0 +1,173 @@
+# ==========================================
+# OS / System
+# ==========================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS / Linux 
+.DS_Store
+.AppleDouble
+.LSOverride
+*~
+
+# ==========================================
+# IDE / Editors
+# ==========================================
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# Environment / Secrets
+# ==========================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.crt
+
+secrets/
+credentials/
+
+# ==========================================
+# Node.js / React / Next.js
+# ==========================================
+
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+dist/
+build/
+.next/
+out/
+.vite/
+
+coverage/
+
+.vercel/
+.netlify/
+
+# ==========================================
+# Python / FastAPI / ML
+# ==========================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python packaging
+*.egg
+*.egg-info/
+pip-wheel-metadata/
+
+# Testing / type checking / linting
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ==========================================
+# Machine Learning
+# ==========================================
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.weights
+*.h5
+*.keras
+*.safetensors
+
+# Training outputs
+runs/
+weights/
+checkpoints/
+outputs/
+artifacts/
+
+# Experiment tracking
+wandb/
+mlruns/
+tensorboard/
+
+# ==========================================
+# Datasets
+# ==========================================
+
+# Large datasets
+datasets/
+data/
+
+# Dataset archives
+*.zip
+*.tar
+*.tar.gz
+*.7z
+*.rar
+
+# ==========================================
+# Logs / Temporary Files
+# ==========================================
+
+*.log
+logs/
+
+tmp/
+temp/
+
+*.tmp
+*.temp
+*.cache
+
+# ==========================================
+# Databases
+# ==========================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# ==========================================
+# Docker
+# ==========================================
+
+docker-compose.override.yml
+
+# ==========================================
+# Cloudflare / Local Deployment
+# ==========================================
+
+.wrangler/
+
+# ==========================================
+# Local Configuration
+# ==========================================
+
+*.local
